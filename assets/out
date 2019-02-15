@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo '{"version":{"prize":"not implemented}}'
