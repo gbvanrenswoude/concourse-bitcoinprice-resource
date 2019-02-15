@@ -54,7 +54,4 @@ jobs:
   # ...
   plan:
   - get: current-price
-    params:
-      whole: true
-
 ```
