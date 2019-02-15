@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 This will get the input and query the current price.
 input: stdin
@@ -35,4 +35,3 @@ with open("price.txt", "w") as text_file:
 version = {'price': price}
 callback = json.dumps(version)
 print("{\"version\":" + callback + "}")
-

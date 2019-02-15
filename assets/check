@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 This will get the input and query the current price.
 input: stdin
@@ -31,4 +31,3 @@ price = str(float(response[0]['price_usd']))
 version = {'price': price}
 callback = json.dumps(version)
 print("{\"version\":" + callback + "}")
-
